@@ -1,0 +1,325 @@
+/* *{
+  box-sizing:border-box;
+} */
+
+body,h1,h2,h3,h4,h5,h6,p,li,a,div,input{
+  padding:0;
+  margin:0;
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.container{
+width: 90%;
+margin:0 auto;
+}
+
+header{
+  background-color: black;
+  color: white;
+  height: 80px;
+}
+
+header a{
+  display: inline-block;
+  color: white;
+}
+
+.header-left{
+  float: left;
+  display: flex;
+}
+
+.header-left h1{
+  font-weight: normal;
+  padding-right: 30px;
+  margin:20px 0;
+}
+
+.header-left a{
+  margin:20px 10px;
+  padding:10px;
+  border-radius: 30px;
+}
+
+.header-left a:hover{
+  transition: 0.4s;
+  background-color: rgba(141, 141,141,0.4);
+}
+
+.header-right{
+  display: flex;
+  float: right;
+}
+
+.header-right a{
+  margin: 20px 10px;
+  padding:10px;
+  border-radius: 30px;
+}
+
+.header-right a:hover{
+  transition: 0.4s;
+  background-color: rgba(141, 141,141,0.4);
+}
+
+#submit{
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+#submit:hover{
+  transition: 0.4s;
+  opacity: 0.8;
+}
+
+.top-wrapper{
+  height: 800px;
+  background-image: url("photos/sakura_train.jpg");
+}
+
+.top-contant{
+  position: relative;
+  top:70px;
+  left: 0;
+  display: flex;
+  width: 100%;
+  border-bottom: lightgray solid 1px;
+}
+
+.top-icon{
+  display: inline-block;
+  width: 12.5%;
+  background-color: white;
+}
+
+.top-icon img{
+  height: 30px;
+  width: 30px;
+  padding: 30px 20px 20px 58px;
+}
+
+.top-icon p{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.top-text{
+  background-color: white;
+  width: 50%;
+  display: none;
+}
+
+.active{
+  display: block;
+  position: relative;
+  top:70px;
+}
+
+.top-text h2{
+  font-size: 55px;
+  width: 80%;
+  text-align: left;
+  padding: 50px 20px 40px 40px;
+}
+
+.top-text p{
+  padding: 20px 20px 100px 40px;
+}
+
+.active{
+  display: block;
+}
+
+.city-wrapper{
+  height: 600px;
+  background-image: url("photos/lake.jpg");
+}
+
+.heading h3{
+  font-size: 40px;
+  padding-top: 80px;
+}
+
+.heading a{
+  display: inline-block;
+  color: black;
+  margin-top: 40px ;
+  padding-bottom: 5px;
+  border-bottom: gray solid 1px;
+}
+
+.heading a:hover{
+  transition: 0.5s;
+  border-bottom:black solid 1px;
+}
+
+.heading p{
+  margin: 40px 0;
+}
+
+.business-wrapper{
+  height: 700px;
+}
+
+.businesses{
+  display: flex;
+}
+
+.business{
+  display: inline-block;
+  width: 35%;
+  margin-bottom: 100px;
+}
+
+.business img{
+  width: 92%;
+}
+
+.business h4{
+  padding: 15px 0;
+}
+
+.business p{
+  width: 92%;
+  padding-bottom: 40px;
+}
+
+.business a{
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: lightgray solid 1px;
+}
+
+.business a:hover{
+  transition: 0.5s;
+  border-bottom:black solid 1px;
+}
+
+.safety-wrapper{
+  height: 400px;
+}
+
+.safety-left{
+  float: left;
+  width: 50%;
+}
+
+.safety-detail {
+  display: flex;
+}
+
+.safety-detail a{
+  display: inline-block;
+  color: black;
+  border-bottom: lightgray solid 1px;
+  margin:10px 30px 10px 0;
+}
+
+.safety-detail a:hover{
+  transition: 0.5s;
+  border-bottom:black solid 1px;
+}
+
+.safety-right{
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+
+.uber-info{
+  height: 400px;
+}
+
+.informations{
+  display: flex;
+}
+
+.information{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.information img{
+height: 30px;
+width: 30px;
+}
+
+.information h5{
+font-size: 18px;
+padding: 20px 0;
+}
+
+.information p{
+  padding-bottom: 70px;
+}
+
+.information a{
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: lightgray solid 1px;
+}
+
+.information a:hover{
+  transition: 0.5s;
+  border-bottom:black solid 1px;
+}
+
+footer{
+  height: 650px;
+  color: white;
+  background-color: black;
+}
+
+.footer-logo h2{
+  padding-top: 70px;
+  font-weight: normal;
+}
+
+.footer-logo a{
+  display: inline-block;
+  padding-top: 40px;
+  margin-bottom: 60px;
+  color: white;
+  text-decoration: none;
+  border-bottom: black solid 1px;
+}
+
+.footer-logo a:hover{
+  border-bottom: white solid 1px;
+}
+
+.footer-contants{
+  display: flex;
+}
+
+.footer-contant{
+width: 25%;
+}
+
+.footer-contant h6{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-contant a{
+  display: inline-block;
+  display: table;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 0;
+}
+
+.footer-contant a:hover{
+  opacity: 0.7;
+}
+
+.copylight{
+padding-top: 70px;
+font-size: 12px;
+opacity: 0.7;
+}
