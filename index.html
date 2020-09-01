@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" href="photos/car-riding.jpg">
     <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -16,17 +17,42 @@
           <a href="#">会社情報</a>
           <a href="#">安全性</a>
           <a href="#">ヘルプ</a>
-          <a href="#">新型コロナコロナウイルス(COVID-19)の参考資料</a>
+          <a href="#">新型コロナウイルス(COVID-19)の参考資料</a>
         </div>
         <div class="header-right">
           <a href="#">JA-JP</a>
           <a href="#">サービス</a>
           <a href="#">ログイン</a>
+          <img src="photos/login.png">
           <a href="#" id="submit">登録する</a>
+          <div class="menu-bar menu"><img src="photos/menu.png"></div>
         </div>
       </div>
     </header>
-    <main>
+    <div class="menu-wrapper" id="menu">
+      <div class="container">
+        <div class="menu-details hide">
+          <p>会社情報</p>
+          <div class="allow">
+            <img src="photos/down-allow.png">
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="menu-detail">
+          <p>Uber について</p>
+          <p>Uber の仕組み</p>
+          <p>地球市民としての活動</p>
+          <p>ニュースルーム</p>
+          <p>IR 情報</p>
+          <p>ブログ</p>
+          <p>採用情報</p>
+        </div>
+        <a href="#">安全性</a>
+        <a href="#">ヘルプ</a>
+        <a href="#">新型コロナウイルス(COVID-19)の参考資料</a>
+      </div>
+    </div>
+    <main id="main">
       <div class="top-wrapper">
         <div class="container">
           <div class="top-contant">
@@ -133,6 +159,7 @@
               <p>好印象を残しましょう。顧客やクライアント、ゲストのためにドアツードアのご乗車を手配できます。</p>
               <a href="#">詳細はこちら</a>
             </div>
+            <div class="clear"></div>
           </div>
         </div>
       </div>
@@ -150,6 +177,23 @@
           </div>
           <div class="safety-right">
             <img src="photos/social-distance.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="safety-wrapper2">
+        <div class="container">
+          <div class="safety-right">
+            <img src="photos/social-distance.jpg">
+          </div>
+          <div class="safety-left">
+            <div class="heading">
+              <h3>安全性向上への取り組み</h3>
+              <p>安全性の向上に向けて新たに導入される機能、コミュニティガイドラインの基準のひとつに、利用者にとって安全な環境の確保に取り組む Uber の信念が込められています。</p>
+            </div>
+            <div class="safety-detail">
+              <a href="#">コミュニティ ガイドラインの詳細はこちら</a>
+              <a href="#">安全を守るすべての機能を見る</a>
+            </div>
           </div>
         </div>
       </div>
@@ -178,7 +222,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="footer">
       <div class="container">
         <div class="footer-logo">
           <h2>Uber</h2>
@@ -217,5 +261,7 @@
         <p class="copylight">©2020 Uber Technologies Inc.</p>
       </div>
     </footer>
+
+  <script src="script.js"></script>
   </body>
 </html>
