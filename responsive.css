@@ -16,7 +16,7 @@ header a{
 }
 
 .header-right img{
-  display: block;
+  display: inline-block;
   height: 30px;
   width: 30px;
   padding: 20px;
