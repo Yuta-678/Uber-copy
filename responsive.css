@@ -1,12 +1,139 @@
-@media(max-width:1000px){
+@media(max-width:1200px){
+.container{
+  width: 100%;
+}
 
+.header-left h1{
+  margin-left: 30px;
+}
 
+header a{
+  display: none;
+}
+
+#submit{
+  display: inline-block;
+}
+
+.header-right img{
+  display: block;
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  margin :5px 10px 0 10px;
+  cursor: pointer;
+}
+
+.header-right img:hover{
+  transition: 0.4s;
+  opacity: 0.8;
+}
+
+.top-contant{
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.top-icon{
+  width: 70vw;
+}
+
+.top-text{
+  width:100%;
+}
+
+.heading{
+  margin-left:30px;
+}
+
+.business-wrapper {
+  height: auto;
+}
+
+.businesses{
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
+
+.business{
+  width: 50%;
+}
+
+.safety-detail{
+  margin-left: 30px;
+  margin-bottom: 90px;
+}
+
+.safety-wrapper{
+  display: none;
+}
+
+.safety-wrapper2{
+  display: block;
+  height: auto;
+}
+
+.safety-left,.safety-right{
+  width: 100%;
+}
+
+.informations{
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.information{
+  width: 40%;
+  margin: 30px 15px;
+  flex: auto;
+}
+
+.uber-info{
+  height: auto;
+}
+
+footer{
+  height: auto;
+}
+
+.footer-logo{
+  margin-left: 30px;
+}
+
+.footer-contants{
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-contant{
+  width: 50%;
+  padding-top: 40px;
+}
 
 }
 
+
 @media(max-width:670px){
+.business{
+  width: 100%;
+}
 
+.footer-contant{
+  width: 100%;
+}
 
+.information{
+  width: 100%;
+  text-align: left;
+  padding:  0 10px;
+}
 
+.heading{
+  margin:0 10px ;
+}
+
+.safety-detail{
+  margin:0 10px ;
+}
   
 }
