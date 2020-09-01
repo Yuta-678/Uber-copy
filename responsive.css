@@ -138,6 +138,12 @@ footer{
   
 .header-left h1{
   margin-left:10px;
+  padding: 0;
+}
+
+.header-right img{
+  padding: 20px 2px;
+  margin-top: 5px;
 }
 
   
